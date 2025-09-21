@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>مركز لرعاية النهارية</title>
+  <!-- استدعاء الخطوط من Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: "Tahoma", sans-serif;
+      text-align: center;
+      background: url('https://tebcanadminstorageprod.blob.core.windows.net/001/Years/2023/Timeline/007a3854-0cb7-4471-b6a0-f399a32c29b0.jpg?sv=2017-04-17&sr=b&si=PrivatePolicy&sig=kZNt284%2FHOfUnc54aJCTjkhrBJxe3GZiFCiuOIaB22o%3D') no-repeat center center fixed;
+      background-size: cover;
+      color: #000;
+    }
+
+    .overlay {
+      background: rgba(255,255,255,0.7); 
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      font-family: 'Amiri', sans-serif; /* خط العنوان */
+      font-size: 22px;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      width: 220px;
+      padding: 14px;
+      margin: 12px 0;
+      background: #ffffffcc;
+      border: none;
+      border-radius: 12px;
+      font-size: 17px;
+      cursor: pointer;
+      box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #f0f0f0;
+      transform: translateY(-3px);
+    }
+
+    .forgot {
+      margin-top: 20px;
+      font-size: 15px;
+      text-decoration: none;
+      color: #222;
+      font-family: 'Amiri', serif; /* خط النص */
+    }
+
+    hr {
+      margin: 25px auto;
+      width: 75%;
+      border: 0;
+      height: 1px;
+      background: #333;
+    }
+
+    .lang {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 25px;
+    }
+
+    .lang button {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      border: none;
+      background: #ffffffcc;
+      font-size: 15px;
+      cursor: pointer;
+      box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+    }
+
+    .lang button:hover {
+      background: #f0f0f0;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>مركز لرعاية النهارية</h1>
+
+    <button class="btn">تسجيل دخول</button>
+    <button class="btn">تسجيل</button>
+
+    <a href="#" class="forgot">هل نسيت كلمة المرور؟</a>
+
+    <hr>
+
+    <div class="lang">
+        <button onclick="window.location.href='index.html'">العربية</button>
+        <button onclick="window.location.href='index-en.html'">English</button>
+    </div>
+  </div>
+</body>
+</html>
